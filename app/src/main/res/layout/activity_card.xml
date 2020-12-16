@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_activity_background1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center">
+
+            <TextView
+                style="@style/card_in_text"
+                android:layout_width="273dp"
+                android:text="NAQA category 1 provider"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hight_quality"
+                android:paddingRight="10dp"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_choose_study"
+            style="@style/main_card_view">
+            <LinearLayout style="@style/liner_main_card">
+                <TextView
+                    style="@style/card_in_text"
+                    android:text="Why study at MIT?" />
+                <ImageView
+                style="@style/main_cardin_image"
+                android:src="@drawable/choose_mit" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/main_card_view"
+            android:id="@+id/pathway_study">
+            <LinearLayout style="@style/liner_main_card">
+                 <ImageView
+                    style="@style/main_cardin_image"
+                     android:src="@drawable/pathway"
+                     android:layout_alignParentRight="true"/>
+                <TextView
+                    style="@style/card_in_text"
+                    android:text="STUDY PATHWAYS" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/how_to_apply"
+            style="@style/main_card_view">
+            <LinearLayout style="@style/liner_main_card">
+                <TextView
+                    style="@style/card_in_text"
+                    android:text="How to Apply" />
+                <ImageView
+                    style="@style/main_cardin_image"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/how_apply" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/liner_address"
+            android:id="@+id/liner_swap"
+            android:background="#f2f2f2"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/swap_horiz_24"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="swipe horiz for more details"
+                android:textAllCaps="true"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/study_path" />
+
+    </LinearLayout>
+</ScrollView>

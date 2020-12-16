@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_screen_bg1">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/manukau_logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/heading_big"
+        android:layout_marginTop="5dp"
+        android:text="@string/home_title"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+       android:layout_below="@id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/heading_medium"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+
+        android:text="@string/program_description"
+        android:layout_below="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/home_btn"
+        android:onClick="digital_brochure_ban"
+        android:text="@string/home_slider_btn"
+        android:layout_below="@id/textView2" />
+    <LinearLayout
+        android:id="@+id/liner_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="180dp"
+            android:layout_height="75dp"
+            android:background="@drawable/home_add"
+            android:layout_margin="10dp"
+            android:padding="2dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_address"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/home_city_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img_address"
+                android:text="We are open:
+Monday to Friday 7am-8pm \n manukau.ac.nz"
+                android:textColor="#ffffff"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/home_add"
+            android:layout_margin="10dp"
+            android:padding="2dp">
+            <ImageView
+                android:id="@+id/img_phone"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/home_phone"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img_phone"
+                android:text="If you have any queries contact our AskMe! team.\n
+0800 62 62 52 "
+                android:textColor="#ffffff"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner_address"
+        android:id="@+id/liner_swap"
+        android:background="#f2f2f2"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/swap_horiz_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="swipe horiz for more details"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_below="@id/liner_swap">
+       <androidx.recyclerview.widget.RecyclerView
+
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+           android:id="@+id/student_comment"
+           android:background="@color/colorPrimary"/>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

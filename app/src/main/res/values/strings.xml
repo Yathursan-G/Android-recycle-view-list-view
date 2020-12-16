@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">MITDigital Technologies</string>
+    <!--Buttons -->
+    <string name="home_slider_btn"> Click Here to "Digital Brochure Started"</string>
+    <string name="home_title">Digital technologies</string>
+    <string name="program_description">Our programmes have been developed after working with schools, businesses and the community to include all the components to ensure your success in this field. Our strong industry
+        relationships mean you keep up with the latest advances and techniques that are in demand in the real world.</string>
+    <string name="digital_technology">Our certificate and diploma qualifications will provide you with general IT skills. Our bachelor and graduate
+diplomas will further develop your interests and experience into a more specific area. Our postgraduate
+and masters programmes in applied technologies will take you to the next step in your IT career.</string>
+    <!--Choose Study -->
+    <string name="std_title1">Get support from day one</string>
+    <string name="std_subtitle1">When you join the MIT family you will be
+supported to learn the skills you need to
+get the job you want.</string>
+    <string name="std_title2">Hands-on skills</string>
+    <string name="std_subtitle2">At MIT, you will apply classroom learning
+to real-world situations and graduate with
+the hands-on skills that are in demand.</string>
+    <string name="std_title3">Get job security</string>
+    <string name="std_subtitle3">We work closely with industry and
+employers to ensure what we teach is
+what is needed in today’s changing market.
+</string>
+    <string name="std_title4">MIT degree graduates earn more**
+</string>
+    <string name="std_subtitle4">Recently analysed Government data shows
+that MIT degree holders have the highest
+employment rates in the country five years
+after finishing their degrees. They can also
+expect to be among the best paid.**
+</string>
+    <string name="std_title5">Get free* study at MIT</string>
+    <string name="std_subtitle5">
+        If you are a domestic student your study could be free*. Explore your free study options
+        *You may be eligible for free study, conditions apply. For more information visit: manukau.ac.nz/free-study
+    </string>
+    <!-- study path -->
+    <string name="path_title1">New Zealand Certificate in Digital
+Media and Design</string>
+    <string name="path_subtitle1">Want to create digital content but don’t know
+where to start?
+Learn about photo, video, audio and digital
+image manipulation and how they combine to
+create engaging content over a range of digital
+platforms and social media.</string>
+    <string name="path_title2">New Zealand Certificate in
+Information Technology Essentials</string>
+    <string name="path_subtitle2">More qualified graduates are needed to fill
+well-paid roles in IT.
+This qualification will provide you with key
+skills in digital technologies, including:
+Computer hardware,Operating systems and applications (apps)Software development, Web development</string>
+    <string name="path_title3">New Zealand Diploma in Information
+Technology Technical Support</string>
+    <string name="path_subtitle3">Future-proof your career with skills in IT.
+You will learn what it takes to help businesses
+navigate the ever-changing IT landscape.
+Learn how to solve common technical support
+issues and develop service management and
+customer service skills.</string>
+    <string name="path_title4">New Zealand Diploma in
+Systems Administration
+</string>
+    <string name="path_subtitle4">Want to help get New Zealand moving again?
+Graduates with the skills to secure IT systems
+are critical to the economy.
+Learn how to manage and secure databases
+and networks, and get the skills to find and
+fix problems.</string>
+    <string name="path_title5">Bachelor of Digital Technologies</string>
+    <string name="path_subtitle5">Are you a natural problem solver? Do you
+keep up to date with the latest technology
+trends?
+Get training in key IT skills and graduate with
+a degree in high demand by the industry
+worldwide.
+This degree meets the accreditation standards
+of the Institute of IT Professionals (IITP), who
+say it’s “the best pathway to industry in New
+Zealand and abroad”. </string>
+    <string name="path_title6">Graduate Diplomas</string>
+    <string name="path_subtitle6">Do you already have a degree and are looking
+to take your next step in the IT industry?
+Study with MIT to learn practical skills in IT in
+just one year.
+This programme is suitable for graduates
+from a variety of fields or those with relevant
+practical experience who want high-level
+academic training specific to IT.</string>
+    <string name="path_title7">Postgraduate Certificate in
+Applied Technologies</string>
+    <string name="path_subtitle7">Are you looking to take the next-step in your IT
+career? Or want to enhance your IT knowledge
+and qualifications before you start working?
+Upskill with our digital technologies
+postgraduate certificate in just 16 weeks.
+You will gain specialist skills and knowledge so
+you can go confidently into the workforce or
+expand on your existing industry experience</string>
+    <!-- How to Apply -->
+    <string name="apply_title1">1. CHECK THAT YOU MEET
+THE ENTRY REQUIREMENTS
+</string>
+    <string name="apply_subtitle1">Once you have decided on your programme,
+you will need to provide proof that you meet the
+entry requirements. Each programme has its own entry
+criteria based on academic achievements, qualications
+and/or work experience.
+Make your experience count
+At MIT we are proud to oer pathways that value your
+work, education and professional experience.
+What you already know and do can count towards a
+qualication with RPL (Recognition of Prior Learning).
+Contact us to  nd out more. Fees may apply</string>
+    <string name="apply_title2">2. APPLY TO STUDY</string>
+    <string name="apply_subtitle2">Domestic students 5. NEED HELP?
+Apply at manukau.ac.nz
+Or contact us for more information or help with
+your application.
+International students
+Visit manukau.ac.nz
+Go to the international students section of our
+website for more information on applications and
+supporting documentation.
+To apply you will need to contact our international team.
+international.application@manukau.ac.nz</string>
+    <string name="apply_title3">3. ACCEPT AND ENROL</string>
+    <string name="apply_subtitle3"> If your application to study is successful you will be
+emailed an er.
+You are required to accept this  er online in order to
+be enrolled. This o er might be conditional on you
+meeting certain requirements.</string>
+    <string name="apply_title4">4. PAY YOUR FEES</string>
+    <string name="apply_subtitle4">Some of our programmes have free fees. If you’re not
+eligible for free fees please ensure your fees are paid
+before your programme starts. Fees may be paid by:
+• direct credit (online banking or at your local branch)
+• applying for a student loan.
+Financial assistance
+You may be eligible for  nancial assistance while you study.
+For information on student loans and allowances,
+contact Studylink.
+studylink.govt.nz</string>
+    <string name="apply_title5">5. NEED HELP?</string>
+    <string name="apply_subtitle5"> Domestic students
+If you have any queries contact our AskMe! team.
+0800 62 62 52
+enquiries@manukau.ac.nz
+We are open:
+Monday to Friday 7am-8pm
+(MIT Manukau and MIT Otara)
+Saturday 8.30am-4.30pm
+(MIT Manukau)
+Excludes public holidays</string>
+    <!--Student discription -->
+    <string name="std_discription1"> “I chose to study at MIT after meeting
+the lecturers who I felt could help me
+get the right start in my career. It was
+a great choice. During my studies I
+gained expert knowledge, tools and
+valuable industry experience through
+an internship. Everyone I graduated
+with got jobs quickly as there are so
+many opportunities with ICT in New
+Zealand and overseas."
+ </string>
+    <string name="for_fees_and_free_study_eligibility_visit_manukau_ac_nz">For fees and free* study eligibility visit manukau.ac.nz</string>
+    <string name="_3_intake_per_year">3 intake per Year</string>
+    <string name="_19_weeks_full_time">19 weeks (full-time)</string>
+
+    <string name="digtal_tech_student">Digtal tech student</string>
+    <string name="new_zealand_certificate_in_digital_media_and_design">New Zealand Certificate in Digital Media and Design</string>
+    <string name="careers">Careers</string>
+    <string name="assistant_and_or_support_roles_in_various_industries_including_advertising_web_design_in_house_design_studio_news_media">Assistant and/or support roles in various industries including advertising, web design, in-house design studio, news media.</string>
+</resources>

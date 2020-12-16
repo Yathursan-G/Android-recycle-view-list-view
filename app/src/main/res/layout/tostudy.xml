@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/main_card_view">
+    <LinearLayout
+        style="@style/liner_main_card">
+
+        <ImageView
+            android:id="@+id/image_view_icon"
+            style="@style/main_cardin_image"
+            tools:src="@drawable/study_icon1" />
+
+        <TextView
+            android:id="@+id/text_view_maori_text"
+            style="@style/card_in_text"
+            tools:text="Text" />
+
+        <ImageView
+            android:id="@+id/read_more_image"
+            style="@style/main_cardin_image"
+            android:src="@drawable/read_more" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
